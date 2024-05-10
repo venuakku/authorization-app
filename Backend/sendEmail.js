@@ -28,7 +28,7 @@ export default async function sendEmail(recipientEmail, name, id) {
                     <p>Hello ${name} ,</p>
                     <p>Thankyou for signing up on our platform.<p/>
                     <p>Please click the link below to verify your email address: ${recipientEmail}</p>
-                    <a href='http://localhost:5173/authorization/?id=${id}'>Verify Email</a>
+                    <a href='https://authorization-app-client.vercel.app/authorization/?id=${id}'>Verify Email</a>
                     <p>This link has no expire time.</p>
                     `
                 },
