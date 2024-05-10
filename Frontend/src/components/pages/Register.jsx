@@ -90,7 +90,7 @@ function Register() {
       return
     }
 
-    fetch('http://localhost:3000/register', {
+    fetch('https://authorization-app-server.vercel.app/register', {
       method: 'POST',
       body: JSON.stringify({
         name: name,

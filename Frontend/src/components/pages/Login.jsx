@@ -49,7 +49,7 @@ function Login() {
         return
       }
 
-        fetch('http://localhost:3000/login/',{
+        fetch('https://authorization-app-server.vercel.app/login/',{
            method: 'POST',
            body: JSON.stringify({
             email: email,

@@ -7,7 +7,7 @@ function Authorization() {
     const currentID = param.get('id');
 
     useEffect(() => {
-        fetch('http://localhost:3000/authorization/', {
+        fetch('https://authorization-app-server.vercel.app/authorization/', {
             method: "PUT",
             body: JSON.stringify({
                 id: currentID,
